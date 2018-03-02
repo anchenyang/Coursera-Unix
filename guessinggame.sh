@@ -1,6 +1,9 @@
 a=$(ls | wc -l)
+
 echo "Hello, please enter your guess of the number of files in this directory: "
+
 read response
+
 echo "You entered: $response"
 
 while [[ $response -ne $a ]]
